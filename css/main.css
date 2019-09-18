@@ -39,4 +39,5 @@ ul.posts {
 }
 
 ul.posts li {
-    list-style: no
+    list-style: none;
+}
