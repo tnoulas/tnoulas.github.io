@@ -357,6 +357,18 @@ h4.media-heading {
     color: #333;
     line-height: 20px;
 }
+
+.academia:hover i.fa,
+.service:hover i.fa { background-color: #333333 }
+h4.media-heading {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #333;
+    line-height: 20px;
+}
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #FFF;
 }
@@ -822,6 +834,31 @@ ul.cat li a.active {
 }
 #experience { padding: 60px 0 20px 0 ;background-color: #fff; color: #909090;}
 .experience { margin-bottom: 40px }
+/* academia Section */
+#academia { padding: 60px 0 }
+.academia i.fa {
+    text-align: center;
+    font-size: 30px;
+    background-color: #333;
+    color: #ffffff;
+    padding: 25px 0;
+    border-top-left-radius: 0;
+    margin: 0 10px;
+    margin-right: 20px;
+    width: 92px;
+    height: 90px;
+    transition: background-color 0.5s;
+}
+#academia .gray-bg { position: relative }
+.gray-bg .vline {
+    position: absolute;
+    height: 100%;
+    padding: 5px;
+    border-left: 3px solid #ffffff;
+    left: 20%;
+}
+#academia { padding: 60px 0 20px 0 ;background-color: #fff; color: #909090;}
+.academia { margin-bottom: 40px }
 /* Pricing Section */
 #pricing { padding: 60px 0 }
 .price h1 { font-size: 50px }
