@@ -69,9 +69,9 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
                 <li><a href="#home" class="scroll">Home</a></li>
-                <li><a href="#whatIdo" class="scroll">What I Do</a></li>
+                <!-- <li><a href="#whatIdo" class="scroll">What I Do</a></li> -->
                 <li><a href="#about" class="scroll">About</a></li>
-                <li><a href="#works" class="scroll">Works</a></li>
+                <li><a href="#works" class="scroll">Projects</a></li>
                 <li><a href="#experience" class="scroll">Industry</a></li> 
                 <li><a href="#academia" class="scroll">Academia</a></li> 
                 <li><a href="#contact" class="scroll">Contact</a></li>
@@ -88,8 +88,12 @@
                 <div class="content-heading text-center"> <!-- Input Your Home Content Here -->
                     <h1>Dr. Anastasios Noulas</br>
                     Senior Data and Research Scientist </h1>
-                    <p class="lead">I apply Machine Learning, Artificial Intelligence and Scientific Methods in technology domains where Geography and Mobility become important.</p> <!-- I specialize in Machine Learning, Artificial Intelligence and Geographic Computing. -->
-                    <a href="#works" class="scroll goto-btn">Download Resume</a> <!-- Link to your portfolio section -->
+                    <p class="lead">I work with and lead multi-disciplinary teams applying Machine Learning, Artificial Intelligence and Scientific Methods in technology domains where Geography and Mobility become important.</p> <!-- I specialize in Machine Learning, Artificial Intelligence and Geographic Computing. -->
+                    <a href="#works" class="scroll goto-btn">Download Resume</a> <!-- Link to your 
+                        portfolio section -->
+                    <a href="https://scholar.google.co.uk/citations?user=tnkMDBsAAAAJ" class="scroll goto-btn" target="_blank">
+                        <!-- <img style="width:3%; background-color: transparent;" src='./img/scholar.jpg'/></img>  -->
+                    Google Scholar Profile</a>
                 </div><!-- End Input Your Home Content Here -->
             </div> <!-- end container -->
         </div><!-- End Overlay Color -->
@@ -162,6 +166,8 @@
                         </div>
                     </div> <!-- end Service #6 -->
                 </div><!-- end Right Content Col 6 -->
+
+
                 
             </div><!-- end row -->
 
@@ -206,18 +212,19 @@
     <section id="works">
         <div class="container">
             <div class="section-header">
-                <h2>My Works</h2>
-                <h5><em>Lorem Ipsum is simply dummy text of the printing and typesetting industry</em></h5>
+                <h2>Project Portfolio</h2>
+                <!-- <h5><em>Browse </em></h5> -->
                 <div class="fancy"><span></span></div>
             </div>
 
             <div class="text-center">
                 <ul class="list-inline cat"> <!-- Portfolio Filter Categories -->
                     <li><a href="#" data-filter="*" class="active">All</a></li>
-                    <li><a href="#" data-filter=".brand">Design</a></li>
-                    <li><a href="#" data-filter=".web">Web</a></li>
-                    <li><a href="#" data-filter=".app">Apps</a></li>
-                    <li><a href="#" data-filter=".others">Others</a></li>
+                    <li><a href="#" data-filter=".intel">Location Intelligence</a></li>
+                    <li><a href="#" data-filter=".mobility">Mobility and Transport</a></li>
+                    <li><a href="#" data-filter=".sustainability">Urban Sustainability</a></li>
+                    <li><a href="#" data-filter=".vision">Computer Vision and AR</a></li>
+                    <!-- <li><a href="#" data-filter=".others">Others</a></li> -->
                 </ul><!-- End Portfolio Filter Categories -->
             </div>
 
@@ -226,72 +233,72 @@
         <div class="container-fluid"> <!-- fluid container -->
              <div id="itemsWork" class="row text-center"> <!-- Portfolio Wrapper Row -->
 
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding brand others"> <!-- Works #1 col 3 -->
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding intel others"> <!-- Works #1 col 3 -->
                     <div class="box"> 
                         <div class="hover-bg">
                             <div class="hover-text off">
-                                <a title="Logo Identity Design" href="img/portfolio/01.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/01.jpg">
+                                <a title="Geo-Spotting" href="img/portfolio/geospot.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/geospot.jpg">
                                     <i class="fa fa-expand"></i>
                                 </a>
                                 <a href="#"><i class="fa fa-chain"></i></a> <!-- change # with your url to link it to another page -->
                             </div> 
-                            <img src="img/portfolio/01.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                            <img src="img/portfolio/geospot.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
                         </div>
                     </div>
                 </div><!-- end Works #1 col 3 -->
 
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding apps"> <!-- Works #2 col 3 -->
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding mobility"> <!-- Works #2 col 3 -->
                     <div class="box">
                         <div class="hover-bg">
                             <div class="hover-text off">
-                                <a title="Mobile Application" href="img/portfolio/02.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/02.jpg">
+                                <a title="OpenStreetCab" href="img/portfolio/osc1.png" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/osc2.png">
                                     <i class="fa fa-expand"></i>
                                 </a>
                                 <a href="#"><i class="fa fa-chain"></i></a><!-- change # with your url to link it to another page -->
                             </div>
-                            <img src="img/portfolio/02.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                            <img src="img/portfolio/osc1.png" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
                         </div>
                     </div>
                 </div><!-- end Works #2 col 3 -->
 
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding others brand"><!-- Works #3 col 3 -->
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding others vision"><!-- Works #3 col 3 -->
                     <div class="box">
                         <div class="hover-bg">
                             <div class="hover-text off">
-                                <a title="Freedom Project #1" href="img/portfolio/03.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/03.jpg">
+                                <a title="Aurama Augmented Reality App" href="img/portfolio/aurama1.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/aurama2.png">
                                     <i class="fa fa-expand"></i>
                                 </a>
                                 <a href="#"><i class="fa fa-chain"></i></a><!-- change # with your url to link it to another page -->
                             </div>
-                            <img src="img/portfolio/03.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                            <img src="img/portfolio/aurama1.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
                         </div>
                     </div>
                 </div><!-- end Works #3 col 3 -->
 
-                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding others web"> <!-- Works #4 col 3 -->
+                <div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 nopadding others intel"> <!-- Works #4 col 3 -->
                     <div class="box">
                         <div class="hover-bg">
                             <div class="hover-text off">
-                                <a title="Freedom Project #1" href="img/portfolio/04.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/04.jpg">
+                                <a title="Wiki Atlas" href="img/portfolio/wikiatlas1.png" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/wikiatlas2.png">
                                     <i class="fa fa-expand"></i>
                                 </a>
                                 <a href="#"><i class="fa fa-chain"></i></a><!-- change # with your url to link it to another page -->
                             </div>
-                            <img src="img/portfolio/04.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                            <img src="img/portfolio/wikiatlas1.png" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
                         </div>
                     </div>
                 </div> <!-- end Works #4 col 3 -->
 
-                <div class="col-xs-12 col-sm-6 col-md-3 nopadding web others"> <!-- Works #5 col 3 -->
+                <div class="col-xs-12 col-sm-6 col-md-3 nopadding sustainability others"> <!-- Works #5 col 3 -->
                     <div class="box">
                         <div class="hover-bg">
                             <div class="hover-text off">
-                                <a title="Freedom Project #1" href="img/portfolio/05.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/05.jpg">
+                                <a title="Freedom Project #1" href="img/portfolio/citizensense.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/citizensense.jpg">
                                     <i class="fa fa-expand"></i>
                                 </a>
                                 <a href="#"><i class="fa fa-chain"></i></a><!-- change # with your url to link it to another page -->
                             </div>
-                            <img src="img/portfolio/05.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                            <img src="img/portfolio/citizensense.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
                         </div>
                     </div>
                 </div> <!-- end Works #5 col 3 -->
@@ -300,40 +307,40 @@
                     <div class="box">
                         <div class="hover-bg">
                             <div class="hover-text off">
-                                <a title="Freedom Project #1" href="img/portfolio/06.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/06.jpg">
+                                <a title="Future Cities Challenge" href="img/portfolio/fcc.png" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/fcc.png">
                                     <i class="fa fa-expand"></i>
                                 </a>
                                 <a href="#"><i class="fa fa-chain"></i></a><!-- change # with your url to link it to another page -->
                             </div>
-                            <img src="img/portfolio/06.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                            <img src="img/portfolio/fcc.png" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
                         </div>
                     </div>
                 </div><!-- end Works #6 col 3 -->
 
-                <div class="col-xs-12 col-sm-6 col-md-3 nopadding web brand"><!-- Works #7 col 3 -->
+                <div class="col-xs-12 col-sm-6 col-md-3 nopadding sustainability brand"><!-- Works #7 col 3 -->
                     <div class="box">
                         <div class="hover-bg">
                             <div class="hover-text off">
-                                <a title="Freedom Project #1" href="img/portfolio/07.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/07.jpg">
+                                <a title="Air Quality Monitoring with Firefly Taxis" href="img/portfolio/airquality.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/airquality.jpg">
                                     <i class="fa fa-expand"></i>
                                 </a>
                                 <a href="#"><i class="fa fa-chain"></i></a><!-- change # with your url to link it to another page -->
                             </div>
-                            <img src="img/portfolio/07.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                            <img src="img/portfolio/airquality.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
                         </div>
                     </div>
                 </div><!-- end Works #7 col 3 -->
 
-                <div class="col-xs-12 col-sm-6 col-md-3 nopadding app"> <!-- Works #8 col 3 -->
+                <div class="col-xs-12 col-sm-6 col-md-3 nopadding mobility"> <!-- Works #8 col 3 -->
                     <div class="box"> 
                         <div class="hover-bg">
                             <div class="hover-text off">
-                                <a title="Freedom Project #1" href="img/portfolio/08.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/08.jpg">
+                                <a title="Navcab" href="img/portfolio/navcab2.jpg" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/portfolio/navcab.jpg">
                                     <i class="fa fa-expand"></i>
                                 </a>
                                 <a href="#"><i class="fa fa-chain"></i></a><!-- change # with your url to link it to another page -->
                             </div>
-                            <img src="img/portfolio/08.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
+                            <img src="img/portfolio/navcab2.jpg" class="img-responsive" alt="Image"> <!-- Portfolio Image -->
                         </div> 
                     </div>
                 </div> <!-- end Works #8 col 3 -->
